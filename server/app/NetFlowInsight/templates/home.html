@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %} NetFlowInsight {% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title mb-4">Upload PCAP File</h2>
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <!-- CSRF token added here -->
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <div class="form-group">
+          <label for="pcap_file">Select PCAP File:</label>
+          <input type="file" class="form-control-file" id="pcap_file" name="pcap_file" accept=".pcap,.pcapng">
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="container mt-5">
+  <h1 class="text-center">Your Uploaded Files</h1>
+  <ul class="list-group list-group-flush" id="filename">
+    {% for file in user.pcap_loc %}
+    <li class="list-group-item">
+      <div class="d-flex justify-content-between align-items-center">
+        <span class="filename">{{ file.filename }}</span>
+        <span class="date">{{ file.date.strftime("%Y-%m-%d  %H:%M") }}</span>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

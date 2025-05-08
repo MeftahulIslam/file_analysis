@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %} Signup {% endblock %}
+{% block content %}
+<form method="POST">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <h3 align="center"> Sign up </h3>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" 
+        {% if request.form.email %}
+            value="{{request.form.email}}"
+        {% else %}
+            placeholder="Enter Email Address" 
+        {% endif %}
+        required/>
+    </div>
+    <div class="form-group">
+        <label for="firstname">First Name</label>
+        <input type="text" class="form-control" id="firstname" name="firstname" 
+        {% if request.form.firstname %}
+            value="{{request.form.firstname}}"
+        {% else %}
+            placeholder="Enter First Name" 
+        {% endif %}
+        required/>
+    </div>
+    <div class="form-group">
+        <label for="lastname">Last Name</label>
+        <input type="text" class="form-control" id="lastname" name="lastname" 
+        {% if request.form.lastname %}
+            value="{{request.form.lastname}}"
+        {% else %}
+            placeholder="Enter Last Name" 
+        {% endif %}
+        required/>
+    </div>
+    <div class="form-group">
+        <label for="password1">Password</label>
+        <input type="password" class="form-control" id="password1" name="password1" required/>
+    </div>
+    <div class="form-group">
+        <label for="password2">Confirm Password</label>
+        <input type="password" class="form-control" id="password2" name="password2" required/>
+    </div>
+    <br>
+    <h3 align="center"><button type="Submit" class="btn btn-primary">Submit</button></h3>
+</form>
+{% endblock %}

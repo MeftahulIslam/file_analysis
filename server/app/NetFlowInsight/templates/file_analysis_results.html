@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %} Analysis Results {% endblock %}
+{% block content %}
+<div class="container mt-5">
+  <table class="table table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th>Filename</th>
+        <th>Date</th>
+        <th>File</th>
+        <th>Extension</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for file in user.pcap_loc %}
+        {% for file_analysis in file.file_analysis %}
+          {% if file_analysis.path.startswith("No") %}
+          <tr>
+            <td>{{ file.filename|escape }}</td>
+            <td>{{ file.date.strftime("%Y-%m-%d  %H:%M") }}</td>
+            <td colspan="3"> No Files Detected in the Pcap File! </td>
+          </tr>
+          {%else%}
+          {% endif %}
+          {% for file_result in file_analysis.file_result %}
+      <tr>
+        {% if loop.index == 1 %}
+          <td rowspan="{{ file_analysis.file_result|length }}">{{ file.filename|escape }}</td>
+          <td rowspan="{{ file_analysis.file_result|length }}">{{ file.date.strftime("%Y-%m-%d  %H:%M") }}</td>
+        {% endif %}
+          <td>
+            <!-- Make the hash a clickable link for downloading -->
+            <a href="{{ url_for('views.download_file', file_path=file_result.filepath|escape) }}" title="Click to download">
+              {{ file_result.filename|escape }}
+            </a>
+          </td>
+          <td>{{ file_result.extension_type|escape }}</td>
+          <td>
+            {{ file_result.result.replace('scores:', '<br>Scores:')
+                                 .replace('metadefender:', '<br>Metadefender:')
+                                 .replace('virustotal:', '<br>VirusTotal:')
+                                 .replace('crowdstrike falcon static analysis (ml):', '<br>CrowdStrike Falcon Static Analysis (ML):')
+                                 .replace('final verdict:', '<br>Final Verdict:')
+                                 .replace('Groq Analysis:', '<br>Groq Analysis:<br>')
+                                 .replace('Verdict:', '<br>Verdict:<br>')|safe }}
+          </td>
+      </tr>
+      {% endfor %}
+      {% endfor %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

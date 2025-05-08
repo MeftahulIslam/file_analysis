@@ -1,0 +1,3 @@
+2025-03-19 23:29:30 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/MEFTAHUL_0.5274498117799525/something.pcap
+2025-03-19 23:29:30 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2025-03-19 23:29:30 ERROR cic.cs.unb.ca.jnetpcap.PacketReader    Error while opening file for capture: truncated dump file; tried to read 4 file header bytes, only got 0

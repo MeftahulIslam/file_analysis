@@ -1,0 +1,212 @@
+2023-12-11 06:28:52 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.19667642710551603/slow.pcap
+2023-12-11 06:28:52 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 ac 12  00 02 02 42* de 2d bf e3  08 06 00 01    .B.....B.-......
+0010: 08 00 06 04  00 01 02 42  de 2d bf e3  ac 12 00 01    .......B.-......
+0020: 00 00 00 00  00 00 ac 12  00 02*                      ..........      
+
+
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 de 2d  bf e3 02 42* ac 12 00 02  08 06 00 01    .B.-...B........
+0010: 08 00 06 04  00 02 02 42  ac 12 00 02  ac 12 00 02    .......B........
+0020: 02 42 de 2d  bf e3 ac 12  00 01*                      .B.-......      
+
+
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 21 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 22 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 23 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 24 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 25 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 27 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 28 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 30 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 32 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 34 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 36 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 38 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2023-12-11 06:28:53 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 41 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 41 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 43 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 44 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 44 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 ac 12  00 02 02 42* de 2d bf e3  08 06 00 01    .B.....B.-......
+0010: 08 00 06 04  00 01 02 42  de 2d bf e3  ac 12 00 01    .......B.-......
+0020: 00 00 00 00  00 00 ac 12  00 02*                      ..........      
+
+
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 de 2d  bf e3 02 42* ac 12 00 02  08 06 00 01    .B.-...B........
+0010: 08 00 06 04  00 02 02 42  ac 12 00 02  ac 12 00 02    .......B........
+0020: 02 42 de 2d  bf e3 ac 12  00 01*                      .B.-......      
+
+
+2023-12-11 06:28:54 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.19667642710551603/slow.pcap/slow.pcap
+2023-12-11 06:31:18 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.03474250098963738/slow.pcap
+2023-12-11 06:31:18 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 3 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 ac 12  00 02 02 42* de 2d bf e3  08 06 00 01    .B.....B.-......
+0010: 08 00 06 04  00 01 02 42  de 2d bf e3  ac 12 00 01    .......B.-......
+0020: 00 00 00 00  00 00 ac 12  00 02*                      ..........      
+
+
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 de 2d  bf e3 02 42* ac 12 00 02  08 06 00 01    .B.-...B........
+0010: 08 00 06 04  00 02 02 42  ac 12 00 02  ac 12 00 02    .......B........
+0020: 02 42 de 2d  bf e3 ac 12  00 01*                      .B.-......      
+
+
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 13 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2023-12-11 06:31:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 18 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 19 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 21 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 22 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 23 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 24 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 25 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 27 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 28 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 30 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 32 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 34 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 36 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 38 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 40 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 41 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 41 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 43 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 44 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 44 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 ac 12  00 02 02 42* de 2d bf e3  08 06 00 01    .B.....B.-......
+0010: 08 00 06 04  00 01 02 42  de 2d bf e3  ac 12 00 01    .......B.-......
+0020: 00 00 00 00  00 00 ac 12  00 02*                      ..........      
+
+
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 de 2d  bf e3 02 42* ac 12 00 02  08 06 00 01    .B.-...B........
+0010: 08 00 06 04  00 02 02 42  ac 12 00 02  ac 12 00 02    .......B........
+0020: 02 42 de 2d  bf e3 ac 12  00 01*                      .B.-......      
+
+
+2023-12-11 06:31:19 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.03474250098963738/slow.pcap/slow.pcap
+2023-12-11 07:05:08 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.03474250098963738/capture.pcap
+2023-12-11 07:05:08 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-11 07:05:09 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.03474250098963738/capture.pcap/capture.pcap
+2023-12-11 08:09:56 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.03474250098963738/benign.pcap
+2023-12-11 08:09:56 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-11 08:09:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 02 a6 e4  17 2e 07 d9* 86 dd 60 00    33............`.
+0010: 00 00 00 10  3a ff fe 80  00 00 00 00  00 00 a4 e4    ....:...........
+0020: 17 ff fe 2e  07 d9 ff 02  00 00 00 00  00 00 00 00    ................
+0030: 00 00 00 00  00 02 85 00  f3 56 00 00  00 00 01 01    .........V......
+0040: a6 e4 17 2e  07 d9*                                   ......          
+
+
+2023-12-11 08:09:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 ac 12  00 02 02 42* c7 14 eb 66  08 06 00 01    .B.....B...f....
+0010: 08 00 06 04  00 02 02 42  c7 14 eb 66  ac 12 00 01    .......B...f....
+0020: 02 42 ac 12  00 02 ac 12  00 02*                      .B........      
+
+
+2023-12-11 08:09:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 08:09:57 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-11 08:09:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 ac 12  00 02 02 42* c7 14 eb 66  08 06 00 01    .B.....B...f....
+0010: 08 00 06 04  00 01 02 42  c7 14 eb 66  ac 12 00 01    .......B...f....
+0020: 00 00 00 00  00 00 ac 12  00 02*                      ..........      
+
+
+2023-12-11 08:09:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*02 42 c7 14  eb 66 02 42* ac 12 00 02  08 06 00 01    .B...f.B........
+0010: 08 00 06 04  00 02 02 42  ac 12 00 02  ac 12 00 02    .......B........
+0020: 02 42 c7 14  eb 66 ac 12  00 01*                      .B...f....      
+
+
+2023-12-11 08:09:57 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.03474250098963738/benign.pcap/benign.pcap

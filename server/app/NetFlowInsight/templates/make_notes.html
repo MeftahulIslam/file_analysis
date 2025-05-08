@@ -1,0 +1,17 @@
+{% extends "base.html" %} 
+{% block title %} Make Notes {% endblock %}
+{% block content %}
+  <div class="container mt-5">
+    <h1 class="notes-heading">New Note</h1>
+    <form method="POST">
+      <!-- CSRF token added here -->
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <div class="form-group">
+        <textarea name="note" id="note" class="form-control" placeholder="Write your note here"></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Add Note</button>
+      </div>
+    </form>
+  </div>
+{% endblock %}

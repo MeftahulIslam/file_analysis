@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %} Profile Page {% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="text-center mb-0">Your Profile</h2>
+        </div>
+        <div class="card-body">
+            <div class="profile-details">
+                <div class="row mb-3">
+                    <div class="col-md-4 font-weight-bold">First Name:</div>
+                    <div class="col-md-8">{{ user.firstname|escape }}</div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4 font-weight-bold">Last Name:</div>
+                    <div class="col-md-8">{{ user.lastname|escape }}</div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4 font-weight-bold">Email:</div>
+                    <div class="col-md-8">{{ user.email|escape }}</div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-4 font-weight-bold">Open API Key:</div>
+                    <div class="col-md-8">
+                      <span id="apiKeyDisplay" class="badge badge-secondary p-2">{{ user.api_key[:4] + "****" |escape }}</span>
+                      <button type="button" class="btn btn-sm btn-outline-primary ml-2" onclick="editApiKey()">
+                        <i class="fas fa-pencil-alt"></i> Edit
+                      </button>
+                    </div>
+                  </div>
+                  <div id="apiKeyEditField" style="display: none;">
+                    <form method="POST">
+                      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                      <div class="form-group">
+                        <label for="editApiKeyInput" class="font-weight-bold">Edit API Key:</label>
+                        <input type="text" class="form-control" id="editApiKeyInput" name="api_key" placeholder="Enter new API key">
+                      </div>
+                      <button type="button" class="btn btn-sm btn-success" onclick="saveEditedApiKey()">Save</button>
+                      <button type="button" class="btn btn-sm btn-secondary" onclick="cancelEditApiKey()">Cancel</button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

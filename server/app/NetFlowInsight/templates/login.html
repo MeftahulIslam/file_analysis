@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %} Analysis Results {% endblock %}
+{% block content %}
+<form method="POST">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <h3 align="center"> Login </h3>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" 
+        {% if email %}
+        value="{{ email|escape }}"
+        {% else %}
+        placeholder="Enter Email Address" 
+        {% endif %}
+        required/>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <div class="input-group">
+            <input type="password" class="form-control" id="password" name="password"
+            {% if request.form.password %}
+                value="{{ request.form.password|escape }}"
+            {% else %}
+                placeholder="Enter Password" 
+            {% endif %}
+            required/>
+            <label class="toggle-eye" for="password-toggle">
+                <input type="checkbox" id="password-toggle" onclick="toggle_password_visibility('password')">
+                <i class="fas fa-eye"></i>
+            </label>
+        </div>
+    </div>
+    <br>
+    <h3 align="center"><button type="Submit" class="btn btn-primary">Login</button></h3>
+</form>
+{% endblock %}

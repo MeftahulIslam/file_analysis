@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %} Your Notes {% endblock %}
+{% block content %}
+<div class="container mt-5">
+  <h1 class="text-center">Your File Analysis Results</h1>
+  <table class="table table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th>Pcap File</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for file in user.pcap_loc %}
+        <tr>
+          <td>{{ file.filename|escape }}</td>
+          <td>
+            <ul class="list-group list-group-flush" id="note">
+              {% for note in file.note %}
+              <li class="list-group-item" data-note-id="{{ note.id }}">
+                <span class="note-display">{{ note.note|escape }}</span>
+                <br>
+                <span class="date">{{ note.date.strftime("%Y-%m-%d %H:%M") }}</span>
+                <span aria-hidden="true" class="edit">
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="editNote('{{ note.id }}')">
+                    <i class="fas fa-pencil-alt"></i>
+                  </button>
+                </span>
+                <div class="note-edit-field" style="display: none;">
+                  <input type="text" class="form-control edit-note-input">
+                  <button type="button" class="btn btn-sm btn-outline-success mt-2" onclick="saveEditedNote('{{ note.id }}')">
+                    Save
+                  </button>
+                </div>
+                <button type="button" class="close" style="margin-right: 2%;" onClick="deleteNote('{{ note.id }}')">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </li>
+              {% endfor %}
+            </ul>
+            <br>
+            <br>
+            <div class="container mt-5">
+              <form method="POST">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <div class="form-group">
+                  <input type="hidden" name="file_id" value="{{ file.id }}">
+                  <textarea name="note" id="note" class="form-control" placeholder="Add a new note"></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Add Note</button>
+                </div>
+              </form>
+            </div>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

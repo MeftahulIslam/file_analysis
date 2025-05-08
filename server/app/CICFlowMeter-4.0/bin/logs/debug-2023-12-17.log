@@ -1,0 +1,88 @@
+2023-12-17 21:29:26 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.0834256285705458/capture.pcap
+2023-12-17 21:29:26 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:29:27 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.0834256285705458/capture.pcap/capture.pcap
+2023-12-17 21:34:46 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.3020010998359083/capture.pcap
+2023-12-17 21:34:46 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:34:46 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.3020010998359083/capture.pcap/capture.pcap
+2023-12-17 21:46:46 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.40313990043629977/capture.pcap
+2023-12-17 21:46:46 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:46:46 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.40313990043629977/capture.pcap/capture.pcap
+2023-12-17 21:52:01 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.04466350597442392/capture.pcap
+2023-12-17 21:52:01 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 21:52:01 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.04466350597442392/capture.pcap/capture.pcap
+2023-12-17 22:00:29 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.4249522589809561/capture.pcap
+2023-12-17 22:00:29 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:00:29 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.4249522589809561/capture.pcap/capture.pcap
+2023-12-17 22:06:17 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.07702804459840562/capture.pcap
+2023-12-17 22:06:17 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 22:06:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:06:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:06:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:06:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:06:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:06:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:06:17 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:06:18 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:06:18 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.07702804459840562/capture.pcap/capture.pcap
+2023-12-17 22:10:35 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.5320571415910329/capture.pcap
+2023-12-17 22:10:35 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:10:36 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.5320571415910329/capture.pcap/capture.pcap
+2023-12-17 22:14:48 INFO  cic.cs.unb.ca.ifm.Cmd    You select: /opt/uploads/Files/Meftahul_0.24249907912141533/capture.pcap
+2023-12-17 22:14:48 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: /opt/app/NetFlowInsight/log_analysis/data
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 6 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2023-12-17 22:14:49 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on /opt/uploads/Files/Meftahul_0.24249907912141533/capture.pcap/capture.pcap
