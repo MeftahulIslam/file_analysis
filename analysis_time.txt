@@ -1,1 +1,0 @@
-with 8 threads: 17.5 for 1mb pcap file

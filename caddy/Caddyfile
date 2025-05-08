@@ -1,7 +1,0 @@
-{
-    auto_https disable_redirects
-}
-
-http://ubuntu_server.localhost {
-    reverse_proxy ubuntu_server:3000
-}
