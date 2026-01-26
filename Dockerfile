@@ -1,4 +1,4 @@
-FROM ubuntu:latest 
+FROM ubuntu:24.10 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
 COPY ./app /opt/app
